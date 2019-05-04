@@ -1,0 +1,55 @@
+/*COLORS:
+Header background - #FFDBAA
+button - #805215
+Header Text - #553100
+Main background - #D4A76A*/
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+  margin-left: 55%;  
+}
+p {
+    font-size: 14pt;
+    padding: 25px;
+}
+.heading {
+    text-align: center;
+}
+.nav-main {
+    background-color: #FFDBAA;
+    padding: 26px;
+    display: flex;
+}
+.body-of-page {
+    background-color: #D4A76A;
+}   
+.nav-item {
+    background-color: #805215;
+    color: white;
+    padding: 10px
+}
+.column-one {
+    display: flex;
+    padding: 25px;
+}
+.column-two {
+    display: flex;
+    padding: 30px;
+}
+.column {
+    flex: 1;
+    background-color: white;
+    border: solid 1px black;
+    padding: 20px;
+    margin: 20px;
+}
+.button {
+    width: 99%;
+    background-color: #805215;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 10pt;
+}
